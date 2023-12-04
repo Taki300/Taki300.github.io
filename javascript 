@@ -1,0 +1,24 @@
+const wrapper = document.queryselector(".wrapper");
+const question = document.queryselector(".question");
+const gif = document.queryselector(".gif");
+const yesBtn = document.queryselector(".yes-btn");
+const noBtn = document.queryselector(".no-btn");
+
+
+yesBtn.addEventListener("click", () => {
+   question.innerHTML = "eeee, aku juga suka kamu";
+   gif.src =
+     "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp";
+});
+
+noBtn.addEventListener("mouseover",() => {
+    const noBtnRect = noBtn.getBoundingClientRect();
+    const maxX = window.innerwidth - noBtn.width;
+const maxY = window.innerheight - noBtn.height;
+
+const randomX = Math.floor(Math.random() * maxX;
+const randomY = Math.floor(Math.random() * maxY;
+
+noBtn.style.left = randomX + "px";
+noBtn.style.top = randomY + "px";
+});
