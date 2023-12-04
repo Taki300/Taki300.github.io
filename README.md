@@ -59,12 +59,12 @@ button {
 }
 button:nth-child(1) {
     margin-left: -200px;
-    background: e94d58;
+    background: #e94d58;
 }
 button:nth-child(2) {
     margin-right: -200px;
     background: white;
-    color: e94d58;
+    color: #e94d58;
 }
 const wrapper = document.queryselector(".wrapper");
 const question = document.queryselector(".question");
