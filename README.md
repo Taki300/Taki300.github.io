@@ -17,6 +17,7 @@ src="https://raw.githubusercontent.com/DzarelDeveloper/img/main/gifyou.webp"
   <script src="script.js"></script>
  </body>
 </html
+ 
 *
 {
     margin: 0;
@@ -66,6 +67,7 @@ button:nth-child(2) {
     background: white;
     color: #e94d58;
 }
+
 const wrapper = document.queryselector(".wrapper");
 const question = document.queryselector(".question");
 const gif = document.queryselector(".gif");
